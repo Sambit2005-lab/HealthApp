@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/Home"
+        android:title="Home"
+        android:icon="@drawable/home_icon_home"
+
+    />
+    <item android:id="@+id/Appointment"
+        android:title="Home"
+        />
+
+    <item android:id="@+id/Chatbot"
+        android:title=""
+        />
+    <item
+        android:title="Home"
+        android:enabled="false"
+        />
+    <item android:id="@+id/Profile"
+        android:title="Profile"
+        />
+</menu>
