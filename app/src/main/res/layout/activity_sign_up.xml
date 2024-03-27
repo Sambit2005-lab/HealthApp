@@ -27,7 +27,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview"
-        android:src=""/>
+        />
 
 
     <LinearLayout
@@ -38,7 +38,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf=" ">
+        >
 
         <EditText
             android:id="@+id/EditText_Text1"
@@ -52,7 +52,7 @@
             android:ems="10"
             android:hint="Username"
             android:inputType="textPersonName"
-            android:paddingStart="20dp"
+
             android:textColorHint="#464646" />
 
         <EditText
@@ -67,7 +67,7 @@
             android:ems="10"
             android:hint="Email"
             android:inputType="textPersonName"
-            android:paddingStart="20dp"
+
             android:textColorHint="#464646" />
 
         <EditText
@@ -114,7 +114,7 @@
             android:textColor="#ffffff"
             android:textSize="24sp"
             android:background="@drawable/background_intro"
-            android:textStyle="bold"
+            android:textStyle="bold"/>
 
 
     </LinearLayout>
