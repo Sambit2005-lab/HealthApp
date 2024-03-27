@@ -23,6 +23,7 @@
         >
         
         <LinearLayout
+            android:id="@+id/home_layout"
             android:background="@drawable/bottom_nav_bg"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
@@ -33,6 +34,7 @@
             android:layout_weight="1">
             
             <ImageView
+                android:id="@+id/home_icon"
                 android:layout_width="25dp"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
@@ -40,6 +42,7 @@
             </ImageView>
             
             <TextView
+                android:id="@+id/home_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Home"
@@ -52,7 +55,8 @@
         </LinearLayout>
 
         <LinearLayout
-            android:background="@drawable/bottom_nav_bg"
+            android:id="@+id/consult_layout"
+            android:background="@android:color/transparent"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:orientation="horizontal"
@@ -62,13 +66,16 @@
             android:layout_weight="1">
 
             <ImageView
+                android:id="@+id/consult_icon"
                 android:layout_width="25dp"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                android:src="@drawable/home_icon_home">
+                android:src="@drawable/doctor_icon_navbar">
             </ImageView>
 
             <TextView
+                android:id="@+id/consult_text"
+                android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Consult"
@@ -82,7 +89,7 @@
 
         <LinearLayout
             android:id="@+id/product_layout"
-            android:background="@drawable/bottom_nav_bg"
+            android:background="@android:color/transparent"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:orientation="horizontal"
@@ -92,6 +99,7 @@
             android:layout_weight="1">
 
             <ImageView
+                android:id="@+id/products_icon"
                 android:layout_width="25dp"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
@@ -99,6 +107,8 @@
             </ImageView>
 
             <TextView
+                android:id="@+id/products_text"
+                android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Products"
@@ -122,6 +132,7 @@
             android:layout_weight="1">
 
             <ImageView
+                android:id="@+id/profile_icon"
                 android:layout_width="25dp"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
@@ -129,6 +140,7 @@
             </ImageView>
 
             <TextView
+                android:id="@+id/profile_text"
                 android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
