@@ -37,7 +37,7 @@ public class Welcome extends AppCompatActivity {
         signupbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent issignup=new Intent();
+                Intent issignup=new Intent(Welcome.this,SignUp.class);
             }
         });
 
