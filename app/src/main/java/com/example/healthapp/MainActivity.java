@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
                     homeText.setVisibility(View.VISIBLE);
                     homeImage.setImageResource(R.drawable.home_icon_home);
-                    homeLayout.setBackgroundResource(R.drawable.home_icon_home);
+                    homeLayout.setBackgroundResource(R.drawable.bottom_nav_bg);
 
                     ScaleAnimation scaleAnimation=new ScaleAnimation(0.8f,1.0f,1f,1f,Animation.RELATIVE_TO_SELF,0.0f,Animation.RELATIVE_TO_SELF,0.0f);
                     scaleAnimation.setFillAfter(true);
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
 
                     consultText.setVisibility(View.VISIBLE);
                     consultImage.setImageResource(R.drawable.consult_icon_navbar);
-                    consultLayout.setBackgroundResource(R.drawable.round_back_consult_100);
+                    consultLayout.setBackgroundResource(R.drawable.bottom_nav_bg);
 
                     ScaleAnimation scaleAnimation=new ScaleAnimation(0.8f,1.0f,1f,1f,Animation.RELATIVE_TO_SELF,0.0f,Animation.RELATIVE_TO_SELF,0.0f);
                     scaleAnimation.setFillAfter(true);
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
 
                     productText.setVisibility(View.VISIBLE);
                     productImage.setImageResource(R.drawable.products_icon_navbar);
-                    productLayout.setBackgroundResource(R.drawable.round_back_consult_100);
+                    productLayout.setBackgroundResource(R.drawable.bottom_nav_bg);
 
                     ScaleAnimation scaleAnimation=new ScaleAnimation(0.8f,1.0f,1f,1f,Animation.RELATIVE_TO_SELF,0.0f,Animation.RELATIVE_TO_SELF,0.0f);
                     scaleAnimation.setFillAfter(true);
@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
 
                     profileText.setVisibility(View.VISIBLE);
                     profileImage.setImageResource(R.drawable.profile_icon_navbar);
-                    profileLayout.setBackgroundResource(R.drawable.background_intro);
+                    profileLayout.setBackgroundResource(R.drawable.bottom_nav_bg);
 
                     ScaleAnimation scaleAnimation=new ScaleAnimation(0.8f,1.0f,1f,1f,Animation.RELATIVE_TO_SELF,0.0f,Animation.RELATIVE_TO_SELF,0.0f);
                     scaleAnimation.setFillAfter(true);
