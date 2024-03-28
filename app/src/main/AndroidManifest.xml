@@ -32,6 +32,12 @@
 
         </activity>
 
+        <activity
+            android:name=".SignUp"
+            android:exported="true">
+
+        </activity>
+
 
     </application>
 

@@ -38,6 +38,7 @@ public class Welcome extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent issignup=new Intent(Welcome.this,SignUp.class);
+                startActivity(issignup);
             }
         });
 

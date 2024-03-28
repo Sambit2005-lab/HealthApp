@@ -19,6 +19,17 @@
 
        />
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="500dp"
+        app:lottie_rawRes="@raw/signup_app_tryst"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+
+
         <EditText
             android:id="@+id/username"
             android:layout_below="@+id/signup_text"
