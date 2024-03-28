@@ -19,7 +19,7 @@
         android:elevation="10dp"
         android:gravity="center"
         android:background="#ffff"
-        android:layout_alignParentBottom="true"
+        android:layout_marginTop="700dp"
         >
         
         <LinearLayout
