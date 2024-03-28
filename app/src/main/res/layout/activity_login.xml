@@ -62,7 +62,7 @@
         android:paddingLeft="10dp" />
 
     <Button
-        android:id="@+id/signup_btn"
+        android:id="@+id/log"
         style="@android:style/Widget.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
