@@ -38,10 +38,23 @@ public class MainActivity extends AppCompatActivity {
         final TextView productText=findViewById(R.id.products_text);
         final TextView profileText=findViewById(R.id.profile_text);
 
+
+        getSupportFragmentManager().beginTransaction()
+                        .setReorderingAllowed(true)
+                                .replace(R.id.fragmentContainer,homeFragment.class,null)
+                                        .commit();
+
         homeLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (selectedTab !=1){
+
+
+                    getSupportFragmentManager().beginTransaction()
+                            .setReorderingAllowed(true)
+                            .replace(R.id.fragmentContainer,homeFragment.class,null)
+                            .commit();
+
                     consultText.setVisibility(View.GONE);
                     productText.setVisibility(View.GONE);
                     profileText.setVisibility(View.GONE);
@@ -74,6 +87,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (selectedTab !=2){
+
+
+                    getSupportFragmentManager().beginTransaction()
+                            .setReorderingAllowed(true)
+                            .replace(R.id.fragmentContainer,consultFragment.class,null)
+                            .commit();
+
+
+
                     homeText.setVisibility(View.GONE);
                     productText.setVisibility(View.GONE);
                     profileText.setVisibility(View.GONE);
@@ -110,6 +132,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 if (selectedTab !=3){
+
+
+
+                    getSupportFragmentManager().beginTransaction()
+                            .setReorderingAllowed(true)
+                            .replace(R.id.fragmentContainer,productFragment.class,null)
+                            .commit();
+
+
+
+
                     homeText.setVisibility(View.GONE);
                     consultText.setVisibility(View.GONE);
                     profileText.setVisibility(View.GONE);
@@ -146,6 +179,13 @@ public class MainActivity extends AppCompatActivity {
 
 
                 if (selectedTab !=4){
+
+
+                    getSupportFragmentManager().beginTransaction()
+                            .setReorderingAllowed(true)
+                            .replace(R.id.fragmentContainer,profileFragment.class,null)
+                            .commit();
+
                     homeText.setVisibility(View.GONE);
                     consultText.setVisibility(View.GONE);
                     productText.setVisibility(View.GONE);
