@@ -5,6 +5,63 @@
     android:layout_height="match_parent"
     tools:context=".consultFragment">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/appointment_fragment_final"
+        android:scaleType="fitXY"
+        >
+
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/text_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textColor="@color/white"
+
+        android:textSize="25sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/_text_doctor"
+        android:layout_below="@id/text_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's find\nyour top doctor!"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="20dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_doctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meet your Doctors"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"
+        android:layout_marginTop="230dp"
+        android:textColor="#F2A02B"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/">
+
+    </androidx.cardview.widget.CardView>
+
 
 
 </RelativeLayout>

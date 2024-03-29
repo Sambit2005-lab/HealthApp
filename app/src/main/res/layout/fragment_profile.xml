@@ -155,7 +155,8 @@ android:background="#ececec">
                     android:text="Back to Main page"
                     android:textColor="#ffffff"
                     android:textStyle="bold"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp"
+                    tools:ignore="VisualLintButtonSize" />
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
