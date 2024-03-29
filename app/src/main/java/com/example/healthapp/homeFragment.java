@@ -1,8 +1,10 @@
 package com.example.healthapp;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.widget.ViewPager2;
 
@@ -18,6 +20,8 @@ import java.util.List;
 
 
 public class homeFragment extends Fragment {
+
+    private CardView cardView;
     View layout;
     Activity activity;
 
@@ -54,6 +58,16 @@ public class homeFragment extends Fragment {
 
 
         startSliderAutoScroll();
+
+        cardView = layout.findViewById(R.id.crview);
+
+        cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), SetMedicineTimingsActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
         return layout;
