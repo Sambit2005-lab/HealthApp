@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 public class homeFragment extends Fragment {
     View layout;
     Activity activity;
+    
 
 
 
