@@ -16,6 +16,13 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+
+
+
+
+
+
+
     private int selectedTab=1;
 
     @Override
@@ -23,6 +30,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
+
+
+        showStreakContinueDialog();
+
+
+
+
+
+
+
+
+
         final LinearLayout homeLayout=findViewById(R.id.home_layout);
         final LinearLayout consultLayout=findViewById(R.id.consult_layout);
         final LinearLayout productLayout=findViewById(R.id.product_layout);
@@ -229,5 +248,16 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
+
     }
-}
+
+    private void showStreakContinueDialog() {
+        dialog_streak_continue dialogFragment = new dialog_streak_continue();
+        dialogFragment.show(getSupportFragmentManager(), "StreakContinueDialogFragment");
+    }
+
+    }
+
+
