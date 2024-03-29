@@ -68,15 +68,16 @@ public class profileFragment extends Fragment {
             }
         });
 
-        Button backButton = layout.findViewById(R.id.button_back);
-        backButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+       // Button backButton = layout.findViewById(R.id.button_back);
+       // backButton.setOnClickListener(new View.OnClickListener() {
+         //   @Override
+          //  public void onClick(View v) {
                 // Handle button click
-            }
-        });
+          //  }
+        //});
 
         return layout;
+
     }
 }
 

@@ -28,5 +28,6 @@ public class productFragment extends Fragment {
         // Inflate the layout for this fragment
         layout= inflater.inflate(R.layout.fragment_product, container, false);
         return layout;
+
     }
 }
