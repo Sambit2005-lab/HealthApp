@@ -89,10 +89,10 @@ android:background="#ececec">
                     android:layout_marginEnd="32dp"
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/btn_background_1"
-                    android:drawableStart="@drawable/ic_1"
+                    android:drawableStart="@drawable/ic_2"
                     android:drawablePadding="20dp"
                     android:paddingStart="20dp"
-                    android:text="My Reviews"
+                    android:text="My Consults"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     style="@android:style/Widget.Button"
@@ -109,7 +109,7 @@ android:background="#ececec">
                     style="@android:style/Widget.Button"
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/btn_background_1"
-                    android:drawableStart="@drawable/ic_2"
+                    android:drawableStart="@drawable/ic_1"
                     android:drawablePadding="20dp"
                     android:paddingStart="20dp"
                     android:text="Account Settings"
@@ -147,6 +147,24 @@ android:background="#ececec">
                     android:drawablePadding="20dp"
                     android:paddingStart="20dp"
                     android:text="Notification"
+                    android:textAlignment="viewStart" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="32dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    style="@android:style/Widget.Button"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/btn_background_1"
+                    android:drawableStart="@drawable/ic_6"
+                    android:drawablePadding="20dp"
+                    android:paddingStart="20dp"
+                    android:text="Logout"
                     android:textAlignment="viewStart" />
 
                 <androidx.appcompat.widget.AppCompatButton
