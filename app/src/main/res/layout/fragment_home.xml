@@ -65,15 +65,7 @@
 
 </ImageView>
 
-    <com.google.android.material.search.SearchBar
-        android:layout_width="300dp"
-        android:layout_height="30dp"
-        android:layout_marginLeft="45dp"
-        android:layout_marginTop="50dp"
 
-        >
-
-    </com.google.android.material.search.SearchBar>
 
 
 
